@@ -388,17 +388,28 @@ header {
   line-height: 1.71;
   color: var(--primary-white-color);
 }
+.footer-address:hover,
+.footer-address:focus{
+  color: var(--accent-color);
+}
 .footer-mail {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-tel-mail-color);
+}
+.footer-mail:hover,
+.footer-mail:focus{
+  color: var(--accent-color);
 }
 .footer-tel {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-tel-mail-color);
 }
-
+.footer-tel:hover,
+.footer-tel:focus{
+  color: var(--accent-color);
+}
 .footer-soc {
   margin-left: 94px;
 }
